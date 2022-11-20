@@ -1,6 +1,7 @@
 import style from './style.module.scss';
+import Hero from '../../components/Hero';
 
-const Home = () => (
+const Home = () => (<>
   <div className={`container-sm ${style.main}`}>
     <div>
       <h1>Cosmos</h1>
@@ -9,6 +10,7 @@ const Home = () => (
       <p>In science, if you don't do it, somebody else will. Whereas in art, if Beethoven didn't compose the 'Ninth Symphony,' no one else before or after is going to compose the 'Ninth Symphony' that he composed; no one else is going to paint 'Starry Night' by van Gogh.</p>
     </div>
   </div>
+  </>
 );
 
 export default Home;
